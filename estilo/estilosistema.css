@@ -1,0 +1,60 @@
+body {
+    background: url('../img/bgImg.png') no-repeat fixed;
+    background-color: white;
+    background-position-x: 100%;
+    background-position-y: 30%;
+    background-size:100% auto;   
+    overflow-x: hidden;
+}
+
+
+
+
+.panel-heading-style{
+    background-color:black;
+    color:white;
+}
+
+.row{
+    margin-top:15px;
+}
+
+table th{
+    text-align: justify;
+
+    
+}
+table{
+    border-color: grey;
+}
+
+
+#consulta{
+    text-align: center; 
+    background-color:whitesmoke; 
+    margin-top: 2%; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px  #373435; 
+    border-collapse: collapse;
+    overflow-y: scroll;
+    height: 65%;
+}
+
+table td{
+    font-size: 19px;
+}
+
+.tr-row :hover{
+    background-color:#6cb3fd;
+    color:#45474a;
+}
+
+.btn-style{
+    background-color:#010630;
+    color:#ffffff;
+}
+
+.btn-style-limpar{
+    background-color:#737010;
+    color:#ffffff;
+}

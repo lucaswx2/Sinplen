@@ -1,0 +1,74 @@
+body {
+    background: url('../img/bginicial.jpg') no-repeat fixed;
+    background-color: white;
+    background-position-x: 100%;
+    background-position-y: 30%;
+    background-size:100% auto;   
+    margin: 0;
+    overflow-x: hidden;
+
+}
+.login{
+    padding-top: 220px;
+    padding-bottom: 40px;
+}
+
+.form-login{
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color:white;
+    box-shadow: 5px 5px 5px #373435; 
+}
+
+.form-login .form-login-cabecalho{
+    margin-bottom: 10px;
+}
+
+.form-login .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-login .form-control:focus {
+    z-index: 2;
+}
+
+.form-login input[type="text"] {
+    margin-bottom: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#botaoLogar{
+    font-size:1.2em;
+    margin-right:450px;
+    margin-top:15px;
+}
+#botaoLogar :hover{
+    background-color:whitesmoke;
+    font-size:1.2em;
+    margin-right:450px;
+    margin-top:15px;
+}
+
+
+.btn-style{
+    background-color:#201f1f;
+    color:orange;
+}
+.btn-style:hover{
+    background-color:whitesmoke;
+    color:orange;
+}
